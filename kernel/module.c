@@ -3705,7 +3705,7 @@ static int load_module(struct load_info *info, const char __user *uargs,
 	char *after_dashes;
 	
 	flags |= MODULE_INIT_IGNORE_MODVERSIONS;
-    flags |= MODULE_INIT_IGNORE_VERMAGIC;
+        flags |= MODULE_INIT_IGNORE_VERMAGIC;
 
 	err = elf_header_check(info);
 	if (err)
